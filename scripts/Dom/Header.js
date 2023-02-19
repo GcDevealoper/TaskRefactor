@@ -4,7 +4,7 @@ let UserName
 
 //Objetos
 const images = {
-	'defaulProfile': './media/Profiles/Default.png',
+	'defaulProfile': '../media/Profiles/Default.png',
 	'Waifu': './media/Profiles/P4.jpg',
 	'Thief': './media/Profiles/Thief2.png',
 	'Misstress': './media/Profiles/Misstress.png'
