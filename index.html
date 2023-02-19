@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, user-scalable= no">
+	<script src="https://kit.fontawesome.com/25f33de937.js" crossorigin="anonymous"></script>
+	<link rel="stylesheet" type="text/css" href="styles/style.css">
+	<link rel="stylesheet" href="styles/Darkmode.css">
+	<!-- <link rel="stylesheet" type="text/css" href="Darkmode.css"> -->
+	<title>Task Organizer</title>
+</head>
+<body class="body">
+
+<div id="loader">
+	<img src="media/Loader.gif" alt="Loader">
+	<div id="loaderWheel"></div>
+</div>
+
+<header id="Header">
+    <div class="UserProfile" id="UserProfileMenu"></div>
+</header>
+
+<main id="Main">
+
+<aside id="SideBar">
+	<div class="UserCard"></div>
+</aside>
+
+<div id="Content">
+  <div class="ListContainer open" id="ListContainer">		
+    <div class="ContentCard">
+		
+	  <div id="TodoListControls">
+		<i class="fas fa-plus-circle" id="AddTask"></i>
+		<i class="fas fa-cog" id="TaskGear"></i>
+	  </div>
+	  <div id="TodolistContent">
+		<h2 contenteditable="false" style="width:75%;" id="TodoTitle"> Task's 🥤</h2>
+		<div id="ListTDo"></div>
+	  </div>
+	</div>
+	
+	<div class="ContentCard2" id="Notes">
+	    <div id="NotesControls" contenteditable="false">
+			<i class="fa-solid fa-font" id="AddTitle"></i>
+			<i class="fa-solid fa-pen" id="AddText"></i>
+			<i class="fa-solid fa-floppy-disk" id="SaveNotes"></i>
+		</div>	
+	  <div id="NotesContent" contenteditable="true" style="width: 90%;">		  
+		  <h2> Notes📙</h2>
+		  <ol style="gap: 5px;">
+			<h3>Title</h3>
+			<p>Lorem</p>
+		  </ol>
+	  </div>
+	</div>
+
+  </div>
+</div>
+
+</main>
+<script src="scripts/Main.js" type="module"></script>
+</body>
+</html>
