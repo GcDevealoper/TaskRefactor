@@ -10,7 +10,7 @@ const images = {
 	'Misstress': './media/Profiles/Misstress.png'
 }
 
-UserImage = images['defaultProfile']
+UserImage = images['defaulProfile']
 UserName = 'Anonymous'
 
 const MenuTemplate = `
